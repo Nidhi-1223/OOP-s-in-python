@@ -24,7 +24,7 @@ class  Item:
     
     @classmethod
     def instantiate_from_csv(cls):
-        with open('../object oriented programming in python/Class_vs_static_methods/items.csv','r') as f:            #here, we are reading the csv file
+        with open('02_Class_vs_static_methods/items.csv','r') as f:            #here, we are reading the csv file
             reader = csv.DictReader(f)              #here, we are representing the csv file as a dictonary
             items = list(reader)                    #here, we are getting the list of dictonaries
 
