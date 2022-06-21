@@ -11,7 +11,7 @@ class  Item:
 
         #assign to self object
         self.__name = name                      #adding __ before name will make it a private attribute which cant be accessed outside the class
-        self.price = price 
+        self.price = price
         self.quantity = quantity
         
         #Actions to execute
